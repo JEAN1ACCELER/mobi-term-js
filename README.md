@@ -34,22 +34,28 @@ O núcleo deste projeto é um simulador que demonstra diferentes métodos de alo
 
 ##  Como Executar
 
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
-    ```
+Exportar para Github através do botão "Exportar para Github"
+Clonar e instalar:
 
-2.  (Se necessário) Instale as dependências:
-    ```bash
-    pip install -r requirements.txt
-    ```
+git clone <SEU_GIT_URL>
+cd <SEU_PROJETO>
+npm install
+Adicionar plataforma Android:
 
-3.  Execute o simulador:
-    ```bash
-    python simulador.py
-    ```
-    *(Substitua pelo comando correto do seu projeto)*
+npx cap add android
+npx cap update android
+Construir e executar:
+
+npm run build
+npx cap sync
+npx cap run android
+Observação: você precisa ter o Android Studio instalado
+
+O que vem a seguir?
+Adicione mais comandos : vim, nano, ping, curl
+Executar JavaScript : eval de código JS real
+Temas : Múltiplos esquemas de núcleos
+Persistência : Salvar arquivos localmente
 
 ---
 
