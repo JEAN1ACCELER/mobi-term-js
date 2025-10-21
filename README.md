@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+#  Simulador de Gerenciamento de Arquivos
 
-## Project info
+Trabalho prático desenvolvido para a disciplina de Sistemas Operacionais, focado no estudo e simulação de Gerenciamento de Arquivos.
 
-**URL**: https://lovable.dev/projects/a26d6352-be8f-4dc7-b7d1-1a7d8b4b4adb
+##  Objetivo
 
-## How can I edit this code?
+Este projeto tem como objetivo consolidar o conhecimento sobre Gerenciamento de Arquivos em Sistemas Operacionais. Ele é composto por duas partes:
 
-There are several ways of editing your application.
+1.  **Pesquisa Teórica:** Um estudo aprofundado sobre estruturas de diretórios, métodos de acesso, proteção e sistemas de arquivos como FAT, NTFS e ext4.
+2.  **Ferramenta de Simulação:** Uma aplicação (algoritmo base) que simula visualmente como o Sistema Operacional aloca espaço em disco para arquivos, facilitando o aprendizado prático dos conceitos.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a26d6352-be8f-4dc7-b7d1-1a7d8b4b4adb) and start prompting.
+##  A Ferramenta de Simulação
 
-Changes made via Lovable will be committed automatically to this repo.
+O núcleo deste projeto é um simulador que demonstra diferentes métodos de alocação de espaço em disco. A ferramenta permite ao usuário "criar" e "deletar" arquivos virtuais e observar visualmente como os blocos de um disco simulado são gerenciados.
 
-**Use your preferred IDE**
+### Funcionalidades
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Visualização do "Disco":** Uma representação gráfica ou textual dos blocos de dados, mostrando quais estão livres ou ocupados.
+* **Simulação de Métodos de Alocação:**
+    * **Alocação Encadeada (Ex: FAT):** Demonstra como os arquivos são armazenados em blocos não contíguos, com ponteiros (ou uma tabela) ligando-os.
+    * **(Opcional) Alocação Contígua:** Mostra a alocação de arquivos em blocos sequenciais e o problema da fragmentação externa.
+    * **(Opcional) Alocação Indexada (Ex: Inode/ext4):** Simula o uso de um "bloco de índice" que aponta para os blocos de dados do arquivo.
+* **Operações Básicas:** Permite criar arquivos (especificando um tamanho) e deletar arquivos, liberando os blocos correspondentes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+##  Tecnologias Utilizadas
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Linguagem:** [Python / JavaScript ]  * **Bibliotecas:** [Nenhuma / ou listar bibliotecas, ex: 'rich' para Python se for terminal colorido]
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+##  Como Executar
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    cd seu-repositorio
+    ```
 
-**Edit a file directly in GitHub**
+2.  (Se necessário) Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3.  Execute o simulador:
+    ```bash
+    python simulador.py
+    ```
+    *(Substitua pelo comando correto do seu projeto)*
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+##  Autores (Grupo)
 
-## What technologies are used for this project?
+* [ Arthur]
+* [Heloyse]
+* [Jean]
+* [Juliano]
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a26d6352-be8f-4dc7-b7d1-1a7d8b4b4adb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Disciplina:** Sistemas Operacionais  
+**Professor:** [r Dr. Rallyson dos Santos Ferreira]  
+**Instituição:** [Universidade Federal do Amazonas]
