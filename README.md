@@ -28,7 +28,7 @@ O núcleo deste projeto é um simulador que demonstra diferentes métodos de alo
 
 ##  Tecnologias Utilizadas
 
-* **Linguagem:** [Python / JavaScript ]  * **Bibliotecas:** [Nenhuma / ou listar bibliotecas, ex: 'rich' para Python se for terminal colorido]
+* **Linguagem:** [TypeScript ]  * **Bibliotecas:** [Listar bibliotecas, ex: 'rich' para Python se for terminal colorido]
 
 ---
 
@@ -63,5 +63,5 @@ O núcleo deste projeto é um simulador que demonstra diferentes métodos de alo
 ---
 
 **Disciplina:** Sistemas Operacionais  
-**Professor:** [r Dr. Rallyson dos Santos Ferreira]  
+**Professor:** [Dr. Rallyson dos Santos Ferreira]  
 **Instituição:** [Universidade Federal do Amazonas]
